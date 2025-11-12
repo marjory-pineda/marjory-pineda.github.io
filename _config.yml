@@ -21,7 +21,7 @@ plugins:
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Marjory Pineda"
+title                    : ""
 masthead_title          : false
 title_separator          : "-"
 name                     : &name "Marjory Pineda"
@@ -37,7 +37,7 @@ repository               : "marjory-pineda/marjory-pineda.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/Marjory_Pineda_headshot.jpg"
+  avatar           : "images/Marjory_Pineda_headshot.jpg"
   name             : "Marjory Pineda"
   pronouns         : # "she/her" # example: "she/her"  
   bio              : "Ph.D. Student, Human-Centered Computing, Department of Information Systems"
