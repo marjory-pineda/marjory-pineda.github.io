@@ -11,22 +11,24 @@ author_profile: true
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: nowrap;
-  gap: 24px;
+  gap: 32px; /* wider gap for breathing room */
   margin-top: 20px;
 }
 
+/* Each card now expands evenly and fills the entire row */
 .research-card {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  flex: 1 1 32%; /* ensures 3 evenly spaced cards per row */
-  padding: 20px;
+  flex: 1 1 calc(33.333% - 32px); /* fill full width accounting for gap */
+  max-width: calc(33.333% - 32px);
+  padding: 22px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
-  min-height: 540px;
-  max-height: 540px; /* fixed height for consistent rows */
+  min-height: 560px;
+  max-height: 560px; /* equal height for all cards */
   overflow: hidden;
   position: relative;
 }
@@ -38,33 +40,33 @@ author_profile: true
 
 .research-card img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .research-card h3 {
   margin-top: 0;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   border-left: 4px solid #E87722;
   padding-left: 10px;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 /* Scrollable description area */
 .research-card p {
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   color: #444;
   line-height: 1.5;
   overflow-y: auto;
-  max-height: 120px; /* adjust height as desired */
+  max-height: 140px;
   padding-right: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
-/* Add subtle scroll styling */
+/* Subtle scrollbar */
 .research-card p::-webkit-scrollbar {
   width: 6px;
 }
@@ -80,12 +82,12 @@ author_profile: true
 .research-card .button {
   display: inline-block;
   margin-top: auto;
-  padding: 8px 14px;
+  padding: 10px 16px;
   background-color: #E87722;
   color: white;
   border-radius: 6px;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 600;
   text-align: center;
   transition: all 0.2s ease;
@@ -95,8 +97,8 @@ author_profile: true
   background-color: #cf6b1e;
 }
 
-/* Responsive for smaller screens */
-@media (max-width: 1100px) {
+/* Responsive behavior */
+@media (max-width: 1250px) {
   .research-grid {
     flex-wrap: wrap;
     justify-content: center;
@@ -107,7 +109,7 @@ author_profile: true
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .research-card {
     flex: 1 1 100%;
     max-width: 100%;
