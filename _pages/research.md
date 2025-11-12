@@ -4,6 +4,12 @@ title: "Research"
 author_profile: true
 ---
 
+/* Override global container width just for Research page */
+.page__content {
+  max-width: 1200px !important;
+}
+
+
 <style>
 /* ==== Research Page Custom Styling ==== */
 .research-grid {
