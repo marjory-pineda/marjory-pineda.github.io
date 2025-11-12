@@ -105,7 +105,11 @@ footer {
 
 /* 5️⃣ Slightly widen content area for a balanced layout */
 @media (min-width: 1200px) {
-  .page__content {
+  
+  /* ******************* THIS IS THE FIX ******************* */
+  /* This applies the 850px limit to all pages EXCEPT
+     ones with the 'layout: wide' front matter (like research.md) */
+  body:not(.layout--wide) .page__content {
     max-width: 850px;
   }
 }
@@ -222,6 +226,3 @@ button[aria-label='toggle color scheme'],
   visibility: hidden !important;
   pointer-events: none !important;
 }
-
-
-
