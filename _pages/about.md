@@ -17,6 +17,6 @@ My research interests focus on **community-engaged work**, **human-centered AI**
 
 ## Awards
 
-- **GEM Fellow** (Ph.D.), Johns Hopkins University Applied Physics Lab Intern****, 2025
+- **[GEM Fellow]([url](https://www.gemfellowship.org/2025-gem-fellows/))** (Ph.D.), Johns Hopkins University Applied Physics Lab Intern****, 2025
 - UMBC's College of Engineering & Information Technology (COEIT) Staff Award for Superior Service**, 2024
  
