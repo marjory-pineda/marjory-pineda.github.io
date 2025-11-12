@@ -1,3 +1,11 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+<!-- Force remove the dark mode toggle icon -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const darkToggle = document.querySelector(".js-toggle-dark-mode, button[aria-label='toggle color scheme']");
+  if (darkToggle) darkToggle.remove();
+});
+</script>
