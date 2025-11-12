@@ -108,8 +108,8 @@ footer {
   
   /* ******************* THIS IS THE FIX ******************* */
   /* This applies the 850px limit to all pages EXCEPT
-     ones with the 'layout: wide' front matter (like research.md) */
-  body:not(.layout--wide) .page__content {
+     ones with the 'classes: wide' front matter (like research.md) */
+  body:not(.wide) .page__content {
     max-width: 850px;
   }
 }
