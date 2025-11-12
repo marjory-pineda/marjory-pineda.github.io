@@ -45,32 +45,48 @@
 /* === Custom Overrides for Marjory Pineda personal site === */
 /* ========================================================= */
 
-/* 1️⃣ Force pure white background across all major elements */
+/* 1️⃣ Force fully white background on all layout layers */
 html,
 body,
-.page,
-.page__content,
-.page__inner-wrap,
-.page__footer,
-.masthead,
 .site,
+.page,
+.page__inner-wrap,
+.page__content,
+.page__footer,
+.wrapper,
+.main,
+.layout__default,
 .site__content,
 .sidebar,
-.layout__default {
+.masthead,
+header,
+footer,
+section,
+article,
+aside {
   background-color: #ffffff !important;
+  background: #ffffff !important;
 }
 
-/* 2️⃣ Use clean modern typography (Avenir Next stack) */
+/* Ensure text contrast against white background */
+body {
+  color: #222222 !important;
+}
+
+/* 2️⃣ Apply clean modern font (Avenir Next stack) */
 body,
 h1, h2, h3, h4, h5, h6,
 a,
 p,
 li,
+blockquote,
 .sidebar,
 .masthead,
-.page__content {
+.page__content,
+footer {
   font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  color: #222 !important; /* optional: darker text for contrast */
+  color: #222 !important;
+  line-height: 1.6;
 }
 
 /* 3️⃣ Circular profile image */
@@ -82,14 +98,24 @@ li,
   display: block;
 }
 
-/* 4️⃣ Keep sidebar left-aligned */
+/* 4️⃣ Left-align sidebar content */
 .sidebar {
   text-align: left !important;
 }
 
-/* 5️⃣ Optional: widen main content slightly for balance */
+/* 5️⃣ Slightly widen content area for a balanced layout */
 @media (min-width: 1200px) {
   .page__content {
     max-width: 850px;
+  }
+}
+
+/* 6️⃣ Optional: subtle separation between sidebar and main content */
+@media (min-width: 1000px) {
+  .sidebar {
+    border-right: 1px solid #eee;
+  }
+  .page__content {
+    padding-left: 2rem;
   }
 }
