@@ -39,5 +39,40 @@
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+    "vendor/font-awesome/brands";
+
+/* ========================================================= */
+/* === Custom Overrides for Marjory Pineda personal site === */
+/* ========================================================= */
+
+/* 1️⃣ White background across entire site */
+body,
+.page__content,
+.page__footer,
+.masthead,
+.sidebar {
+  background-color: #ffffff !important;
+}
+
+/* 2️⃣ Circular profile image and proper sizing */
+.author__avatar img {
+  border-radius: 50% !important;
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 3️⃣ Center sidebar text and content for balance */
+.sidebar {
+  text-align: center;
+}
+
+/* 4️⃣ Optional: tighten sidebar width slightly on large screens */
+@media (min-width: 1200px) {
+  .sidebar {
+    max-width: 260px;
+  }
+}
