@@ -7,12 +7,15 @@ author_profile: true
 <style>
 /* ==== Research Page Custom Styling ==== */
 
-/* * THIS IS THE NEW RULE THAT FIXES THE WIDTH
- * It finds the theme's main content area and removes the
- * width limit, allowing it to fill the space.
+/* * THIS IS THE KEY FIX:
+ * By placing this rule inside the *same* media query as your
+ * main.scss file, we can successfully override the 850px limit
+ * *only* on this page.
 */
-.page__content {
-  max-width: 100% !important;
+@media (min-width: 1200px) {
+  .page__content {
+    max-width: 100% !important;
+  }
 }
 
 .research-grid {
