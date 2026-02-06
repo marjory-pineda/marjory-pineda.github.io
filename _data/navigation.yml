@@ -11,5 +11,11 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Coursework"
+    url: /coursework/
+
+  - title: "Dissertation Plans"
+    url: /dissertation-plans/
+
   - title: "CV"
     url: /cv/
