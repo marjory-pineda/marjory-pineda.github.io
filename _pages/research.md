@@ -4,6 +4,7 @@ permalink: /research/
 title: "Research"
 author_profile: true
 classes: wide
+published: false
 ---
 
 <style>
