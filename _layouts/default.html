@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="{% if page.permalink == '/coursework/' %}page--coursework{% endif %}">
+  <body class="{% if page.permalink == '/coursework/' %}page--coursework{% endif %}{% if page.permalink == '/dissertation-plans/' %} page--dissertation-plans{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
