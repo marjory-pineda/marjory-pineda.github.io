@@ -44,7 +44,7 @@ Maintaining a commitmment to centering the experiences of the Latinx and Hispani
 
 **Year 2:** In year two of the program, I officially became Dr. Yasmine Kotturi's Ph.D. student and joined the Kotturi Lab. Dr. Kotturi's commitment to community-engaged approaches, the future of work, and keeping pace with rapid technological changes such as generative AI was inspiring and helped me hone in on the kind of research I wanted to pursue. In the Fall 2025 semester, I was onboarded to the BizChat project and assisted with facilitating a workshop with entrepreneurs in Pittsburgh, co-led a workshop with Qi Zhao for Howard University students, and co-presented BizChat with Qi Zhao at a 1 Million Cups event. This semester (Spring 2026) my aim is to continue community engagement efforts with entrepreneurs and small business owners, run workshops and interviews, analyze log data from BizChat, and contribute to improvements to the tool. Additionally, this semester I will also focus on building relationships with Latinx and Hispanic communities and organizations.
 
-
+{% comment %}
 ### Strengths
 
 - I am deeply committed to community-engaged work and prioritize opportunities that involve being present with communities.
@@ -56,3 +56,4 @@ Maintaining a commitmment to centering the experiences of the Latinx and Hispani
 - Maintaining clear communication regarding progress, including asking for help when I am feeling stuck.
 - Prioritizing and time management. I am working on learning that doing fewer things and doing them well is what will help me progress in the program.
 - Limited knowledge on quantitative methods.
+{% endcomment %}
