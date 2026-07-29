@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /dissertation-plans/
+published: false
 author_profile: true
 classes: wide
 ---

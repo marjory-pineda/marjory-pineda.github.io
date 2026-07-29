@@ -11,11 +11,12 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Coursework"
-    url: /coursework/
-
-  - title: "Dissertation Plans"
-    url: /dissertation-plans/
+  # Hidden for now — restore by uncommenting below and setting published: true in each page file
+  # - title: "Coursework"
+  #   url: /coursework/
+  #
+  # - title: "Dissertation Plans"
+  #   url: /dissertation-plans/
 
   - title: "CV"
     url: /cv/

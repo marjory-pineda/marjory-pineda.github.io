@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /coursework/
+published: false
 author_profile: true
 classes: wide
 ---
