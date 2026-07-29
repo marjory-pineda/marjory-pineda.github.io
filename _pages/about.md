@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 author_profile: true
 redirect_from: 
@@ -18,10 +19,3 @@ My research interests include:
 - Accessibility
 
 I am particularly interested in investigating the dual role of technology in marginalized communities: in what ways does technology serve and empower and/or fail and exclude marginalized communities?
-
-## Awards and Updates
-
-- <a href="https://www.gemfellowship.org/2025-gem-fellows/" target="_blank" rel="noopener noreferrer">GEM Fellow</a> (Ph.D.), Johns Hopkins University Applied Physics Lab Intern, 2025  
-
-- UMBC's College of Engineering & Information Technology (COEIT) Staff Award for Superior Service, 2024
- 

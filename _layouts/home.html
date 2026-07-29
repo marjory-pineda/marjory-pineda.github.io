@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="home-layout">
+  {% include sidebar.html %}
+
+  <article class="page home-layout__biography" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      </section>
+    </div>
+  </article>
+
+  <aside class="home-layout__awards" aria-label="Awards and Updates">
+    {% include home-awards.html %}
+  </aside>
+</div>

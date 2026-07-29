@@ -17,3 +17,12 @@
 </script>
 
 <!-- end custom footer snippets -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.author__urls a[href^="http"]').forEach(function (link) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  });
+</script>
